@@ -20,6 +20,7 @@ while (true) {
       PingUnit.Centimeters
     )
     basic.showNumber(distanceToObject)
+    basic.pause(500)
     basic.showIcon(IconNames.Happy)
 
     if (distanceToObject < 10) {
