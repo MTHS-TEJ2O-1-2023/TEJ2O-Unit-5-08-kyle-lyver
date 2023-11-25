@@ -15,9 +15,9 @@ while (true) {
     // find distance from sonar
     basic.clearScreen()
     distanceToObject = sonar.ping(
-        DigitalPin.P1,
-        DigitalPin.P2,
-        PingUnit.Centimeters
+      DigitalPin.P1,
+      DigitalPin.P2,
+      PingUnit.Centimeters
     )
     basic.showNumber(distanceToObject)
     basic.showIcon(IconNames.Happy)
